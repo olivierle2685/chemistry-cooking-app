@@ -1,0 +1,43 @@
+{
+  "lessonId": "sci_maillard_02",
+  "title": "Moisture Control & The Braise",
+  "type": "chemistry",
+  "estimatedMinutes": 7,
+  "content": [
+    {
+      "slideId": "s_1",
+      "type": "interactive_time_slider",
+      "text": "Salt draws water out of meat through osmosis. Drag the slider to see how resting time affects the meat's surface before searing.",
+      "parameters": {
+        "unit": "minutes",
+        "min": 0,
+        "max": 60,
+        "keyStates": [
+          { "time": 0, "state": "Salt applied. Surface is dry.", "canSear": true },
+          { "time": 10, "state": "Osmosis pulls water to the surface. Meat is wet. Searing now will cause steaming and grey meat.", "canSear": false },
+          { "time": 45, "state": "Brine is reabsorbed, breaking down tough proteins. Surface is dry again. Perfect for a golden Maillard sear.", "canSear": true }
+        ]
+      }
+    }
+  ],
+  "validation": {
+    "type": "drag_and_drop_sequence",
+    "question": "Arrange the steps to properly cook Boeuf Bourguignon to maximize flavor:",
+    "correctSequence": [
+      "id_dry_meat",
+      "id_sear_high_heat",
+      "id_deglaze_pan",
+      "id_add_liquid_and_simmer"
+    ],
+    "options": [
+      {"id": "id_add_liquid_and_simmer", "text": "Add wine/broth and simmer"},
+      {"id": "id_sear_high_heat", "text": "Sear beef in batches on high heat"},
+      {"id": "id_dry_meat", "text": "Pat meat dry with paper towels"},
+      {"id": "id_deglaze_pan", "text": "Deglaze the fond (browned bits) from the pan"}
+    ]
+  },
+  "rewards": {
+    "unlocksNodes": ["recipe_boeuf_bourguignon"],
+    "pantryItems": [{"itemId": "seared_beef_cubes", "quantity": 1}]
+  }
+}

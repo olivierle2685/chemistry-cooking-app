@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "modules": [
+    {
+      "moduleId": "core_free",
+      "name": "Foundational Techniques",
+      "isPremium": false
+    },
+    {
+      "moduleId": "pack_paris",
+      "name": "World Capitals: Paris",
+      "isPremium": true,
+      "priceString": "$3.99"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "tech_brunoise",
+      "moduleId": "core_free",
+      "title": "Knife Skills: Brunoise",
+      "type": "technique",
+      "prerequisites": [],
+      "description": "Learn to cut vegetables into perfect 1/8-inch cubes."
+    },
+    {
+      "id": "sci_emulsion",
+      "moduleId": "core_free",
+      "title": "Science: Emulsions",
+      "type": "chemistry",
+      "prerequisites": [],
+      "description": "The physics of binding fat and water using a stabilizer."
+    },
+    {
+      "id": "recipe_hollandaise",
+      "moduleId": "pack_paris",
+      "title": "Hollandaise Sauce",
+      "type": "mastery",
+      "prerequisites": ["tech_brunoise", "sci_emulsion"],
+      "description": "A classic French mother sauce requiring strict heat control and emulsion."
+    }
+  ]
+}

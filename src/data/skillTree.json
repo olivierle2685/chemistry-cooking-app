@@ -1,0 +1,79 @@
+[
+  {
+    "id": "module_1",
+    "city": "Paris",
+    "country": "France",
+    "technique": "Emulsions & Fat Suspensions",
+    "scienceCore": "Colloidal systems, amphiphilic molecules (lecithin), and kinetic stabilization.",
+    "status": "unlocked",
+    "xpRequired": 0,
+    "icon": "flask",
+    "lessons": [
+      {
+        "id": "emulsion_basics",
+        "title": "Temporary vs. Permanent Emulsions",
+        "concept": "Vinaigrette vs. Mayonnaise",
+        "chemistrySummary": "Hydrophobic lipid tails align away from aqueous phases until mechanical shear and emulsifiers lower interfacial tension.",
+        "targetRecipe": "Classic Aioli / Mayonnaise",
+        "targetTempC": 20
+      }
+    ]
+  },
+  {
+    "id": "module_2",
+    "city": "Lyon",
+    "country": "France",
+    "technique": "Maillard Reaction & Caramelization",
+    "scienceCore": "Non-enzymatic browning: reducing sugars condensing with amino acids.",
+    "status": "locked",
+    "xpRequired": 150,
+    "icon": "flame",
+    "lessons": [
+      {
+        "id": "maillard_steak",
+        "title": "Surface Dehydration & Pyrolysis",
+        "concept": "Surface moisture boiling at 100°C delays the 140°C–165°C Maillard threshold.",
+        "targetRecipe": "Hard-Seared Cast Iron Steak",
+        "targetTempC": 150
+      }
+    ]
+  },
+  {
+    "id": "module_3",
+    "city": "Seoul",
+    "country": "South Korea",
+    "technique": "Fermentation, Acidity & pH",
+    "scienceCore": "Lactic acid bacteria (LAB) anaerobic respiration and competitive microbial inhibition.",
+    "status": "locked",
+    "xpRequired": 300,
+    "icon": "beaker",
+    "lessons": [
+      {
+        "id": "ferment_kimchi",
+        "title": "Salinity Buffers & Acid Drop",
+        "concept": "Osmotic pressure draws moisture; Leuconostoc mesenteroides drives pH below 4.6.",
+        "targetRecipe": "Traditional Lacto-Fermented Kimchi",
+        "targetTempC": 18
+      }
+    ]
+  },
+  {
+    "id": "module_4",
+    "city": "Bologna",
+    "country": "Italy",
+    "technique": "Protein Denaturation & Heat Transfer",
+    "scienceCore": "Disruption of hydrogen bonds and quaternary/tertiary folding without cleaving peptide backbones.",
+    "status": "locked",
+    "xpRequired": 450,
+    "icon": "thermometer",
+    "lessons": [
+      {
+        "id": "collagen_hydrolysis",
+        "title": "Collagen to Gelatin Conversion",
+        "concept": "Triple-helix collagen hydrolyzes into soluble gelatin under sustained hydrothermal conditions.",
+        "targetRecipe": "Slow-Braised Beef Shank",
+        "targetTempC": 85
+      }
+    ]
+  }
+]
